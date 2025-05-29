@@ -1,7 +1,8 @@
+1) Cargar archivos de imágenes
+Descargar todos los archivos de imágenes en el directorio de tu dominio
 
-<!DOCTYPE html>
-<html lang="eu">
-<head>
+2) Insertar códigos HTML
+Pega tu código HTML ente las dos etiquetas <head></head>:
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -19,30 +20,3 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hiztegia Euskara-Gaztelania</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.1.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "react/": "https://esm.sh/react@^19.1.0/"
-  }
-}
-</script>
-</head>
-<body class="bg-gradient-to-br from-slate-900 to-teal-900 min-h-screen">
-
-  <div class="w-full px-4 py-2 bg-slate-800 text-center">
-    <a href="https://hitzkale.org" class="inline-block text-sm text-white font-medium hover:underline">
-      ⬅ Itzuli hasierako orrira
-    </a>
-  </div>
-
-  <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
-</html><link rel="stylesheet" href="index.css">
-<script src="index.tsx" type="module"></script>
